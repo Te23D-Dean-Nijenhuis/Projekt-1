@@ -1,3 +1,8 @@
+body
+{
+    background-color: rgb(255, 55, 55);
+}
+
 .Layout
 {
     display: flex;
@@ -14,7 +19,7 @@
 
 #rubrik
 {
-    border: solid 5px black;
+    border: solid 5px rgb(0, 0, 0);
     padding-top: 2vh;
     padding-bottom: 2vh;
     padding-left: 20%;
@@ -22,24 +27,37 @@
 }
 .info
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
-#rätten
+.bilder
 {
-    border: solid black 5px;
-    min-width: 25vw;
-    max-width: 25vw;
-    max-height: 25vh;
-    min-height: 25vh;
+    border: solid rgb(0, 0, 0) 5px;
+    min-width: 45vw;
+    max-width: 45vw;
+    min-height: 50vh;
+    margin: 10px;
+    background-color: rgb(255, 255, 214);
 }
-#info2
+.info2
 {
-    border: solid black 5px;
-    min-width: 25vw;
-    max-width: 25vw;
-    max-height: 25vh;
-    min-height: 25vh;
-    
+    border: solid rgb(0, 0, 0) 5px;
+    min-width: 45vw;
+    max-width: 45vw;
+    min-height: 50vh;
+    margin: 10px;
+    background-color: rgb(255, 255, 214);
+    display: flex;
+    flex-direction: column;
+}
+#text
+{
+    border: solid rgb(0, 0, 0) 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
 }
