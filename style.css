@@ -30,23 +30,15 @@ body
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 
-}
-.bilder
-{
-    border: solid rgb(0, 0, 0) 5px;
-    min-width: 45vw;
-    max-width: 45vw;
-    min-height: 50vh;
-    margin: 10px;
-    background-color: rgb(255, 255, 214);
 }
 .info2
 {
     border: solid rgb(0, 0, 0) 5px;
-    min-width: 45vw;
     max-width: 45vw;
-    min-height: 50vh;
+    min-height: 400px;
+   
     margin: 10px;
     background-color: rgb(255, 255, 214);
     display: flex;
@@ -63,5 +55,15 @@ body
 }
 #bild1
 {
-    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid rgb(0, 0, 0) 5px;
+    min-width: 45vw;
+    max-width: 90vw;
+    max-height: 400px;
+    
+    margin: 10px;
+    background-color: rgb(255, 255, 214);
 }
