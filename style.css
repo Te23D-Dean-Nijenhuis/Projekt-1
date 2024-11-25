@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(255, 55, 55);
+    background-color: rgb(192, 139, 16);
 }
 
 .Layout
@@ -19,11 +19,15 @@ body
 
 #rubrik
 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
     border: solid 5px rgb(0, 0, 0);
     padding-top: 2vh;
     padding-bottom: 2vh;
     padding-left: 20%;
     padding-right: 20%;
+    background-color: rgb(255, 255, 214);
+    border-radius: 5px;
 }
 .info
 {
@@ -37,11 +41,12 @@ body
     border: solid rgb(0, 0, 0) 5px;
     max-width: 45vw;
     min-height: 400px;
-   
+    
     margin: 10px;
     background-color: rgb(255, 255, 214);
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 #text
 {
@@ -51,7 +56,8 @@ body
     padding: 10px;
     background-color: rgb(255, 255, 255);
     text-align: center;
-
+    border-radius: 5px;
+    
 }
 #bild1
 {
@@ -63,9 +69,11 @@ body
     min-width: 45vw;
     max-width: 90vw;
     max-height: 400px;
+    min-height: 200px;
     
     margin: 10px;
     background-color: rgb(255, 255, 214);
+    border-radius: 5px;
 }
 .receptet
 {
@@ -80,11 +88,12 @@ body
     max-width: 45vw;
     min-width: 45vw;
     min-height: 400px;
-   
+    
     margin: 10px;
     background-color: rgb(255, 255, 214);
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 .recept
 {
@@ -92,12 +101,13 @@ body
     max-width: 45vw;
     min-width: 45vw;
     min-height: 400px;
-   
+    
     margin: 10px;
-    background-color: rgb(255, 255, 214);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(255, 255, 214);
+    border-radius: 5px;
 }
 #recepttitel
 {
@@ -108,6 +118,7 @@ body
     padding: 10px;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    border-radius: 5px;
 }
 #recepttext
 {
@@ -117,6 +128,7 @@ body
     padding: 10px;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    border-radius: 5px;
 }
 #ingrtitel
 {
@@ -127,6 +139,7 @@ body
     padding: 10px;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    border-radius: 5px;
 }
 #ingrtext
 {
@@ -137,4 +150,5 @@ body
     background-color: rgb(255, 255, 255);
     text-align: center;
     justify-content: space-around;
+    border-radius: 5px;
 }
