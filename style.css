@@ -31,7 +31,6 @@ body
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 .info2
 {
@@ -66,4 +65,67 @@ body
     
     margin: 10px;
     background-color: rgb(255, 255, 214);
+}
+.receptet
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ingredienser
+{
+    border: solid rgb(0, 0, 0) 5px;
+    max-width: 45vw;
+    min-width: 45vw;
+    min-height: 400px;
+   
+    margin: 10px;
+    background-color: rgb(255, 255, 214);
+    display: flex;
+    flex-direction: column;
+}
+.recept
+{
+    border: solid rgb(0, 0, 0) 5px;
+    max-width: 45vw;
+    min-width: 45vw;
+    min-height: 400px;
+   
+    margin: 10px;
+    background-color: rgb(255, 255, 214);
+    display: flex;
+    flex-direction: column;
+}
+#recepttitel
+{
+    border: solid rgb(0, 0, 0) 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+#recepttext
+{
+    border: solid rgb(0, 0, 0) 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+#ingrtitel
+{
+    border: solid rgb(0, 0, 0) 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+#ingrtext
+{
+    border: solid rgb(0, 0, 0) 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
 }
