@@ -45,6 +45,7 @@ body
 }
 #text
 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid rgb(0, 0, 0) 5px;
     margin: 10px;
     padding: 10px;
@@ -96,9 +97,12 @@ body
     background-color: rgb(255, 255, 214);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 #recepttitel
 {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid rgb(0, 0, 0) 5px;
     margin: 10px;
     padding: 10px;
@@ -107,6 +111,7 @@ body
 }
 #recepttext
 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid rgb(0, 0, 0) 5px;
     margin: 10px;
     padding: 10px;
@@ -115,6 +120,8 @@ body
 }
 #ingrtitel
 {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid rgb(0, 0, 0) 5px;
     margin: 10px;
     padding: 10px;
@@ -123,9 +130,11 @@ body
 }
 #ingrtext
 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid rgb(0, 0, 0) 5px;
     margin: 10px;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    justify-content: space-around;
 }
